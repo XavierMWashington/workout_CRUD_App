@@ -1,0 +1,32 @@
+.app-container{
+    display: flex;
+    position: relative;
+    background-color: aliceblue;
+    width: 30vw;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: 4px 4px gray;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+
+.form-container{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 70%;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}  
+
+.form > input{
+    border-radius: 5px;
+    border-width: 0.5px;
+}

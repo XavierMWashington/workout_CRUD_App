@@ -1,0 +1,69 @@
+
+.info-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    width: 30vw;
+    background-color: var(--data-main-color);
+    border: black solid 2px;
+    margin-top: 10vh;
+    margin-left: 50vw;
+    margin-bottom: 20px;
+    padding: 20px 40px;
+}
+
+.data-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    padding: 0 3rem 1rem 3rem;
+    border: black solid 1px;
+    border-radius: 3px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.workout-data{
+    margin: 5px;
+    display: flex;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--data-secondary-color);
+    justify-content: space-between;
+}
+
+
+.workout-data > label{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--data-main-color);
+    width: 100%;
+}
+
+
+.data-container > button{
+    margin: 1rem auto 0.5rem auto;
+}
+
+.data-button{
+    color: black;
+    background-color: var(--data-main-color);
+    align-self: flex-start;
+    border: none;
+}
+
+
+.data-button:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+#workout-new-calorie{
+    width: 40%;
+}
+
+.unclickable-icon{
+    pointer-events: none;
+}

@@ -1,0 +1,116 @@
+.session-container{
+    background-color: rgb(240, 255, 240);
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: 4px 4px gray;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+
+.new-session-button{
+    background-color: limegreen;
+    width: 15vw;
+    border: 1px solid darkgreen;
+    border-radius: 15px;
+    color: darkgreen;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 3px 3px rgb(9, 46, 9);
+}
+
+.new-session-button:hover{
+    background-color: lime;
+}
+
+.new-session-button:active{
+    margin-right: -3px;
+    margin-bottom: -3px;
+    box-shadow: none;
+}
+
+.session-name{
+    margin-right: 1rem;
+}
+
+.new-session-section{
+    background-color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.dropdown-header{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+}
+
+.dropdown-header:active{
+    background-color: snow;
+    user-select: none;
+}
+
+.dropdown-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown-item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px 20px 5px 20px;
+    margin: 0;
+}
+
+.dropdown-item:hover{
+    background-color: aliceblue;
+}
+
+.counter-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.counter-input{
+    width: 5rem;
+    margin-left: 10px;
+}
+
+.session-save-button{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.session-item{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+    margin-top: 1rem;
+}
+
+.session-item > button{
+    margin-top: 1rem;
+    font-size: 1rem;
+    
+}
+.session-item > p{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
